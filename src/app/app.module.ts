@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ReposearchComponent } from './reposearch/reposearch.component';
 import { SearchqueryComponent } from './searchquery/searchquery.component';
+import { RepodetailsComponent } from './repodetails/repodetails.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ReposearchComponent,
-    SearchqueryComponent
+    SearchqueryComponent,
+    RepodetailsComponent
   ],
   imports: [
     BrowserModule,
