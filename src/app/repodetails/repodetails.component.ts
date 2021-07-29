@@ -9,7 +9,11 @@ export class RepodetailsComponent implements OnInit {
   repos: any = [];
   usrde:any;
   searchrepos:any = [];
-  constructor() { }
+  githubService: GithubService;
+
+  constructor(githubService:GithubService) {
+    this.githubsearchService = githubService
+  }
 
   ngOnInit(): void {
   }
