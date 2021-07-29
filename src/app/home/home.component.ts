@@ -9,8 +9,9 @@ export class HomeComponent implements OnInit {
   repos: any = []
   userdetail:any;
   searchrepos:any = []
-  constructor() { }
-
+  githubService: HomeService;
+  constructor(githubService:HomeService) {
+    this.githubService = githubService
   ngOnInit(): void {
   }
 
