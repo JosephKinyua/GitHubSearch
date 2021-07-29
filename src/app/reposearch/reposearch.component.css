@@ -10,8 +10,7 @@
 } */
 
 .container-fluid {
-    background-color: aquamarine;
-    ;
+    background-color: rgba(238, 205, 22, 0.522);
     padding: 10px;
 }
 
@@ -30,7 +29,6 @@
     -moz-border-radius: 18px;
     -ms-border-radius: 18px;
     -o-border-radius: 18px;
-    background-color: rgb(218, 255, 196);
 }
 
 .repo a {
