@@ -4,6 +4,12 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class HomeService {
-
+  userdetails: Userdetails;
+  repo: Repo;
+  searchrepo:Searchrepo;
+  repoData: any = []
+  singleRepoData: any = []
+  searchreps:any = []
+  totalCount: number = 0
   constructor() { }
 }
