@@ -23,8 +23,23 @@ export class HomeService {
   }
   getUserDetails(user:string) {
 
+    interface ApiResponse {
+      login: string,
+      avatar_url: string,
+      repos_url: string,
+      name: string,
+      url: string,
+      blog: string,
+      location: string,
+      bio: string,
+      twitter_username: string,
+      public_repos: number,
+      followers: string,
+      following: string,
+      created_at: Date,
+      updated_at: Date,
+    }
 
-    
   }
 
 
