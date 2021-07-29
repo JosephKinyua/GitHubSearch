@@ -12,8 +12,10 @@ export class ReposearchComponent implements OnInit {
   totalcount!: number
 
   reposearch:string = 'JosephKinyua'
-  constructor() { }
-
+  githubService: GithubService;
+  constructor(githubService:GithubService) {
+    this.githubService = githubService
+   }
   ngOnInit(): void {
   }
 
