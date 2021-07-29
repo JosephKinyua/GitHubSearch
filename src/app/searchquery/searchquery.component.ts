@@ -7,7 +7,17 @@ import { GithubService } from '../github.service';
 })
 export class SearchqueryComponent implements OnInit {
 
-  constructor() { }
+
+  search:string = '';
+  public shwinput = true;
+  public showrepo = false;
+  
+  githubService: GithubService;
+  constructor(githubService:GithubService) {
+    this.githubService = githubService
+  }
+
+
 
   ngOnInit(): void {
   }
