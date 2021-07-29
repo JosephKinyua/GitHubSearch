@@ -16,6 +16,18 @@ export class RepodetailsComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.repos = this.githubService.repoData
+    this.usrde = this.githubService.userdetails
   }
+  maxvalue(){
+    let fun = Number.MIN_VALUE;
+    let arr = this.repos
 
+    for (let i=0; i<arr.length;i++){
+      if(arr[i].forks>fun){
+        fun = arr[i].forks
+      }
+    }
+    return fun;
+  }
 }
