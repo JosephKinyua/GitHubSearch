@@ -20,5 +20,22 @@ export class GithubService {
     this.repo = new Repo('', '', new Date(), new Date(), 0, '', '', '', '');
     this.searchrepo = new Searchrepo('', '', '', new Date(), new Date(), '', 0, '');
    }
-   getUserDetails(user: string) {}
+   getUserDetails(user: string) {
+    interface ApiResponse {
+      login: string,
+      avatar_url: string,
+      repos_url: string,
+      name: string,
+      url: string,
+      blog: string,
+      location: string,
+      bio: string,
+      twitter_username: string,
+      public_repos: number,
+      followers: string,
+      following: string,
+      created_at: Date,
+      updated_at: Date,
+    }
+   }
 }
