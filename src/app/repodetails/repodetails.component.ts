@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { GithubService } from '../github.service';
 @Component({
   selector: 'app-repodetails',
   templateUrl: './repodetails.component.html',
@@ -12,7 +12,7 @@ export class RepodetailsComponent implements OnInit {
   githubService: GithubService;
 
   constructor(githubService:GithubService) {
-    this.githubsearchService = githubService
+    this.githubService = githubService
   }
 
   ngOnInit(): void {
