@@ -6,7 +6,9 @@ import { HomeService } from '../home.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  repos: any = []
+  userdetail:any;
+  searchrepos:any = []
   constructor() { }
 
   ngOnInit(): void {
