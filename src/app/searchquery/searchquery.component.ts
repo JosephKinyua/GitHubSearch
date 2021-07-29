@@ -25,4 +25,8 @@ export class SearchqueryComponent implements OnInit {
     this.shwinput = false;
     this.showrepo = true;
   }
+  showrepodata(event:any){
+    this.shwinput = event;
+    this.showrepo = false;
+  }
 }
