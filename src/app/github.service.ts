@@ -20,4 +20,5 @@ export class GithubService {
     this.repo = new Repo('', '', new Date(), new Date(), 0, '', '', '', '');
     this.searchrepo = new Searchrepo('', '', '', new Date(), new Date(), '', 0, '');
    }
+   getUserDetails(user: string) {}
 }
