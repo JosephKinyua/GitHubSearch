@@ -21,6 +21,9 @@ export class ReposearchComponent implements OnInit {
     console.log(this.reposearch)
   }
   ngOnInit(): void {
+    this.repos = this.githubService.searchreps
+    this.totalcount = this.githubService.totalCount
+    console.log(this.totalcount)
   }
 
 }
