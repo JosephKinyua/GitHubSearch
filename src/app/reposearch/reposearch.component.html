@@ -11,31 +11,22 @@
     <div class="row">
         <div class="col-md-3 col-sm-6 mt-2" *ngFor='let repo of repos'>
             <div class='repo'>
-                <!-- <div class='bg-info repo '>
-              <h3 *ngIf='repo.forks !==m axvalue() || repo.forks===0 '>{{ repo.name }}</h3>
-              <div *ngIf='repo.forks===m axvalue() && repo.forks> 0'>
-          <h3 appHighestforks>{{ repo.name }}</h3>
-      </div> -->
 
-                <!-- <hr> -->
                 <h3>{{ repo.name }}</h3>
                 <a href="{{ repo.html_url }}">To Repository</a>
-                <div class="desc">
+                <div>
                     <p>{{ repo.description }} </p>
                 </div>
-                <div class=" d-flex justify-content-between ">
+                <div>
                     <p>Created: <span>{{ repo.created_at}}</span></p>
                     <p>Updated: <span>{{ repo.updated_at}}</span></p>
 
                 </div>
                 <div class=" d-flex justify-content-between ">
-                    <p>
-                        <span> forks:{{ repo.forks }}</span>
-                    </p>
+
                     <p>
                         <span> {{ repo.language }}</span>
                     </p>
-
 
                 </div>
             </div>

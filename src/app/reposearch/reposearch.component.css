@@ -23,22 +23,19 @@
 
 .repo {
     min-height: 250px;
-    padding: 10px;
-    border-radius: 18px;
-    -webkit-border-radius: 18px;
-    -moz-border-radius: 18px;
-    -ms-border-radius: 18px;
-    -o-border-radius: 18px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 5px solid black;
 }
 
 .repo a {
-    color: #875ACB;
+    color: #f313d5;
     text-decoration: none;
     font-size: 17px;
+    font-family: italic;
 }
 
 span {
-    color: blue;
     font-weight: 500;
     font-family: italic;
 }
