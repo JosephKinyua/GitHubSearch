@@ -16,5 +16,9 @@ export class HomeService {
   singleRepoData: any = []
   searchreps:any = []
   totalCount: number = 0
-  constructor() { }
+  constructor(private http: HttpClient) {
+    this.userdetails = new Userdetails('', '', '', '', '', '', '', '', '', 0, '', '', new Date(), new Date());
+    this.repo = new Repo('', '', new Date(), new Date(), 0, '', '', '', '');
+    this.searchrepo = new Searchrepo('', '', '', new Date(), new Date(), '', 0, '');
+  }
 }
