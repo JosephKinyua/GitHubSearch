@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./repodetails.component.css']
 })
 export class RepodetailsComponent implements OnInit {
-
+  repos: any = [];
+  usrde:any;
+  searchrepos:any = [];
   constructor() { }
 
   ngOnInit(): void {
