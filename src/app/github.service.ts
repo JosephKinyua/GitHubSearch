@@ -8,6 +8,12 @@ import { Searchrepo } from './searchrepo';
   providedIn: 'root'
 })
 export class GithubService {
-
+  userdetails: Userdetails;
+  repo: Repo;
+  searchrepo:Searchrepo;
+  repoData: any = []
+  singleRepoData: any = []
+  searchreps:any = []
+  totalCount: number = 0
   constructor() { }
 }
