@@ -21,11 +21,16 @@
     font-family: italic;
 }
 
-
-/* .userdetail {
+.userdetail {
     padding: 10px 30px;
     max-width: 700px;
-} */
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    background-color: bisque;
+}
 
 .userdetail a {
     text-decoration: none;
@@ -38,4 +43,13 @@
 
 .userdetail p {
     font-weight: bold;
+}
+
+.img-fluid {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 200px;
 }

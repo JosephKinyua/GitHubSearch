@@ -1,12 +1,15 @@
 <div class="container-fluid">
     <div class="d-md-flex justify-content-center align-items-center">
-        <div class="text-left bg-white userdetail">
+        <div class="text-left userdetail">
             <div class="row">
                 <div class="col-md-6 ">
                     <h3>{{ userdetail.login }}</h3>
+                    <div class="profile">
+                        <img src="{{userdetail.avatar_url}}" class="img-fluid">
+                    </div>
                     <p>Bio <span>{{ userdetail.bio }}</span></p>
                 </div>
-                <div class="col-md-6  moredetail bg-info">
+                <div class="col-md-6  moredetail">
                     <h2><span>{{ userdetail.name }}</span></h2>
                     <p><span> <a href="{{ userdetail.blog }}"> Portfolio Link</a></span></p>
                     <p>Public repos <span>{{ userdetail.public_repos }}</span></p>
