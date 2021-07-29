@@ -1,5 +1,5 @@
 .container-fluid {
-    background-color: rgba(227, 230, 53);
+    background-color: rgba(238, 205, 22, 0.522);
     padding: 10px;
 }
 
@@ -11,18 +11,21 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    border: 5px solid black;
 }
 
 .repo a {
-    color: #875ACB;
+    color: #f313d5;
     text-decoration: none;
     font-size: 17px;
+    font-family: italic;
 }
 
-.userdetail {
+
+/* .userdetail {
     padding: 10px 30px;
     max-width: 700px;
-}
+} */
 
 .userdetail a {
     text-decoration: none;
