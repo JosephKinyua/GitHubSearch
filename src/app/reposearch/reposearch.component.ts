@@ -16,6 +16,10 @@ export class ReposearchComponent implements OnInit {
   constructor(githubService:GithubService) {
     this.githubService = githubService
    }
+   searchrepo(){
+    this.githubService.getRepos(this.reposearch)
+    console.log(this.reposearch)
+  }
   ngOnInit(): void {
   }
 
