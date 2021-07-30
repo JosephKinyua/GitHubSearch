@@ -23,7 +23,7 @@
                     <p>
                         <span> {{ usrde.following }} following</span>
                     </p>
-                    <p>Created <span> {{ usrde.created_at}}</span></p>
+                    <p>Created <span> {{ usrde.created_at|date}}</span></p>
                 </div>
             </div>
         </div>
@@ -43,8 +43,8 @@
                     <p>{{ repo.description }} </p>
                 </div>
                 <div>
-                    <p>Created: {{ repo.created_at }}</p>
-                    <p>Updated:{{ repo.updated_at }}</p>
+                    <p>Created: {{ repo.created_at|date }}</p>
+                    <p>Updated:{{ repo.updated_at|date }}</p>
                 </div>
                 <div class=" d-flex justify-content-between ">
                     <p>

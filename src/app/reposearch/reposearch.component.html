@@ -18,8 +18,8 @@
                     <p>{{ repo.description }} </p>
                 </div>
                 <div>
-                    <p>Created: <span>{{ repo.created_at}}</span></p>
-                    <p>Updated: <span>{{ repo.updated_at}}</span></p>
+                    <p>Created: <span>{{ repo.created_at|date}}</span></p>
+                    <p>Updated: <span>{{ repo.updated_at|date}}</span></p>
 
                 </div>
                 <div class=" d-flex justify-content-between ">

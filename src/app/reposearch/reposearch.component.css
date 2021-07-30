@@ -2,24 +2,10 @@
     width: 25%;
 }
 
-
-/* .container button {
-  background-color: #875ACB;
-  color: White;
-  margin-left: 10px;
-} */
-
 .container-fluid {
     background-color: rgba(238, 205, 22, 0.522);
     padding: 10px;
 }
-
-
-/* .container button {
-  background-color: #19e0d6;
-  color: White;
-  margin-left: 10px;
-} */
 
 .repo {
     min-height: 250px;
