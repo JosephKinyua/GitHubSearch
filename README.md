@@ -44,7 +44,8 @@ For any query you can reach me vai email kinyuajoseph2014@gmail.com
 ## Live link
 
 ``````
-https://JosephKinyua.github.io/QuoteGenerator/
+
+
 ``````
 ### License
 
